@@ -1,0 +1,195 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+header{
+
+display: flex;
+justify-content: center;
+padding: 40px;
+height: 40px;
+align-items: center;
+background-color: rgb(15, 186, 234);
+
+margin: 0;
+
+}
+.header nav{
+
+display: flex;
+align-items: flex-end;
+
+
+
+}
+.header ul{
+
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.header a{
+
+ text-decoration: none;
+ display: flex;
+ color: yellow;
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 18px;
+
+
+}
+header img{
+
+    position: absolute;
+    height: 120px;
+    left: 80px;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    align-items: flex-end;
+}
+
+.image {
+
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+.images{
+
+    background-color: black;
+    color:yellow;
+font-family: cursive;
+text-align: center;
+font-size: 3rem;
+height:50px;
+padding: 40px;
+
+box-sizing: border-box;
+
+}
+.slider {
+    position: absolute;
+    width: 100%;
+    top: 300px;
+   left: 350px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+   
+}
+.slides {
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite;
+}
+.slides img {
+    width: 100%;
+}
+@keyframes slide {
+    0%, 20% { transform: translateX(0); }
+    25%, 45% { transform: translateX(-100%); }
+    50%, 70% { transform: translateX(-200%); }
+    75%, 95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+}
+
+main{
+
+
+    background-color:white;
+}
+body{
+
+    background-color: rgb(4, 3, 3);
+}
+ .nit img{
+
+position: absolute;
+    
+    height: 100px;
+    top: 10px;
+    left: 1100px;
+}
+
+.leads{
+
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    justify-content: space-evenly;
+    
+
+
+}
+ .leads img{
+    
+   border: solid white 4px;
+border-radius: 5px;
+ }
+
+ .leads img:hover{
+
+border-color: aqua;
+
+
+ }
+
+
+
+ .leads1{
+
+    display: flex;
+    position: absolute;
+    top: 1500px;
+
+}
+ .leads1 img{
+    
+   border: solid white 4px;
+border-radius: 5px;
+ }
+
+ .leads1 img:hover{
+
+border-color: aqua;
+
+
+ }
+ .meet h1{
+
+    color: yellow;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+top: 1000px;
+left: 520px;
+font-size: 48px;
+
+ }
+ .footer{
+
+    background-color: yellow;
+    position: absolute;
+    top: 1800px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    height: 80px;
+    box-sizing: border-box;
+    justify-content: baseline;
+    color: rgb(7, 9, 9);
+}
